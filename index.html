@@ -12,8 +12,8 @@
 </head>
 <body>
     
-    <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;">
+    <header class="header" id="head">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e1f1fd;">
             <div class="container-fluid container">
               <a class="navbar-brand" href="#">Complex UI</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,9 @@
                     <a class="nav-link disabled">Disabled</a>
                   </li> -->
                 </ul>
+
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2 sea-rch" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
               </div>
@@ -56,17 +57,20 @@
 
     <main class="main">
         <div id="carouselExampleCaptions" class="carousel slide carousel-height">
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            </div> -->
+
+            <!-- <a href="#" class="btn"> Call to Action</a> -->
             <div class="carousel-inner">
               <div class="carousel-item active carousel-image bg-img-1" data-bs-interval="3000">
                 <!-- <img src="..." class="d-block w-100 h-100" alt="..."> -->
                 <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
+                  <a href="#" class="btn"> Call to Action</a>
                 </div>
               </div>
               <div class="carousel-item carousel-image bg-img-2" data-bs-interval="3000">
@@ -75,6 +79,7 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
+                  <a href="#" class="btn"> Call to Action</a>
                 </div>
               </div>
               <div class="carousel-item carousel-image bg-img-3" data-bs-interval="3000">
@@ -83,9 +88,13 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
+                  <a href="#" class="btn"> Call to Action</a>
                 </div>
+      
               </div>
             </div>
+
+            
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -103,19 +112,19 @@
                    <div class="boxes cont-ainer">
                       <div class="box box1">
                           <div>
-                              300 x 200
+                              <img src="https://images.unsplash.com/photo-1682685797332-e678a04f8a64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
                           </div>
                           Short description
                       </div>
                       <div class="box box2">
                           <div>
-                              300 x 200
+                              <img src="https://images.unsplash.com/photo-1682687219573-3fd75f982217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80" alt="">
                           </div>
                           Short description
                       </div>
                       <div class="box box3">
                           <div>
-                              300 x 200
+                              <img src="https://images.unsplash.com/photo-1682685797208-c741d58c2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
                           </div>
                           Short description
                       </div>
@@ -125,62 +134,100 @@
               <section class="grid-1">
                   <div class="cont-ainer">
                     <div class="boxes">
-                        <div class="box box1">300 x 200 1</div>
-                        <div class="box box2">300 x 200 2</div>
-                        <div class="box box3">300 x 200 3</div>
-                        <div class="box box4">300 x 200 4</div>
-                        <div class="box box5">300 x 200 5</div>
-                        <div class="box box6">300 x 200 6</div>
-                        <div class="box box7">300 x 200 7</div>
-                        <div class="box box8">300 x 200 8</div>
-                        <div class="box box9">300 x 200 9</div>
+                        <div class="box box1"></div>
+                        <div class="box box2"></div>
+                        <div class="box box3"></div>
+                        <div class="box box4"></div>
+                        <div class="box box5"></div>
+                        <div class="box box6"></div>
+                        <div class="box box7"></div>
+                        <div class="box box8"></div>
+                        <div class="box box9"></div>
                     </div>
                   </div>
               </section>
           
               <section class="flex-2">
-                   <div class="cont-ainer">
-                        <div class="cards">
+                <div class="cont-ainer">
 
-                            <div class="card card1">
-                                <div class="image">
-                                    300 x 200
-                                </div>
+                  <div class="cards">
 
-                                <div class="info">
-                                    <h4 class="title">Card Title</h4>
-                                    <p>Card description</p>
-                                    <a href="#">Call to Action</a>
-                                </div>
-                            </div>
-                            <div class="card card2">
-                                <div class="image">
-                                    300 x 200
-                                </div>
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1680725950666-92d1dd713513?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1680726080165-a7209b9d253e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1682366748076-8773692a7594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI3fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                  </div>
 
-                                <div class="info">
-                                    <h4 class="title">Card Title</h4>
-                                    <p>Card description</p>
-                                    <a href="#">Call to Action</a>
-                                </div>
-                            </div>
-                            <div class="card card3">
-                                <div class="image">
-                                    300 x 200
-                                </div>
-
-                                <div class="info">
-                                    <h4 class="title">Card Title</h4>
-                                    <p>Card description</p>
-                                    <a href="#">Call to Action</a>
-                                </div>
-                            </div>
-                        </div>
-                   </div>   
+                  </div>
+                </div>
               </section>
+                   
 
           </section>
     </main>
+
+    <footer class="footer">
+      <div class="cont-ainer">
+        <div class="foot">
+          <div class="links">
+            <div class="link link1">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a>Link1</a></li>
+                <li><a>Link2</a></li>
+                <li><a>Link3</a></li>
+              </ul>
+            </div>
+
+            <div class="link link2">
+              <h5>More links</h5>
+              <ul>
+                <li><a>Link1</a></li>
+                <li><a>Link2</a></li>
+                <li><a>Link3</a></li>
+              </ul>
+            </div>
+
+            <div class="link link3">
+              <h5>Contact US</h5>
+              <ul>
+                <li>example@abc.com</li>
+                <li>Phone: 123897989</li>
+                
+              </ul>
+            </div>
+
+            
+          </div>
+
+          <div class="copywrite">
+            <p>&copy; 2023 Complex UI, All Rights Reserved</p>
+            <a href="#head" class="btn">Back To Top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
