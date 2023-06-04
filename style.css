@@ -1,0 +1,174 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+
+/* ----------------  */
+
+.cont-ainer{
+    max-width: 1300px;
+    width: 98%;
+    margin: 50px auto;
+}
+
+main{
+    /* border:2px solid red; */
+    /* height: 120vh; */
+    position: relative;
+    top:3.5rem;
+}
+
+/* .carousel{
+    border:20px solid;
+    height: 100px;
+} */
+
+.bg-img-1{
+    background-image: url('images/jeremy-brady-vK26p2SFX3E-unsplash.jpg');
+}
+
+.bg-img-2{
+    background-image: url('images/pauline-heidmets-GTL39WM6QqA-unsplash.jpg');
+}
+
+.bg-img-3{
+    background-image: url('images/thomas-bennie-1jlJrr4XGkU-unsplash.jpg');
+}
+
+.carousel-image{
+    height: 45vw;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ------------ flex-1 -------------- */
+
+.flex-1{
+    border:2px solid black;
+
+}
+
+.flex-1 .cont-ainer{
+    border: 2px solid red;
+}
+
+.flex-1 .boxes{
+    border:2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.flex-1 .boxes .box{
+    border:2px solid blue;
+    height: 220px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: navy;
+
+}
+
+.flex-1 .boxes .box div{
+    border:2px solid pink;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(52, 119, 220);
+    background-color: #e3f2fd;
+
+}
+
+
+
+.grid-1{
+    border:2px solid black;
+
+}
+
+.grid-1 .cont-ainer{
+    border: 2px solid blue;
+}
+
+
+.grid-1 .cont-ainer .boxes{
+    border: 2px solid red;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    width: 98%;
+    height: 400px;
+    margin: auto;
+    gap:10px;
+}
+
+.grid-1 .box{
+    border:2px solid green;
+    /* width: 200px; */
+}
+
+.grid-1 .box1{
+    width: 600px;
+}
+
+
+/* ----- cards ------------ */
+
+.cards{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    gap:20px;
+}
+
+.cards .card{
+    width: 33%;
+    
+}
+
+.cards .card .image{
+    width: 410px;
+    height: 200px;
+}
+
+.cards .card .image{
+    /* border:2px solid black; */
+    margin-bottom: 2rem;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+}
+
+/* .cards .card .image img{
+    width: 100%;
+} */
+
+.cards .card .info{
+    padding:2rem;
+}
+
+.cards .card a{
+    border:2px solid;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    padding:.5rem 1rem;
+    border-radius: .7rem;
+}
