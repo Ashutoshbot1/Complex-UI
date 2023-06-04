@@ -41,10 +41,21 @@
     font-weight: 500;
 }
 
+.navbar form{
+    /* border:2px solid; */
+    width: 40%;
+}
 
-/* .navbar .sea-rch{
+.navbar .sea-rch{
     width:110%;
-} */
+    /* border:2px solid red; */
+    font-size: 1.4rem;
+}
+
+.navbar .btn{
+    font-size: 1.6rem;
+}
+
 
 
 /* -----------  main ---------- */
@@ -281,7 +292,8 @@ main{
 }
 
 .card{
-    width: 32%
+    width: 32%;
+    box-shadow:3px 3px 9px 1px #cdcdcd;
 }
 
 .card .card-body{
